@@ -1,0 +1,50 @@
+
+#root {
+    background: linear-gradient(140deg, blue, rgb(183, 120, 3));
+    display: flex;  
+    justify-content: center;
+    padding: 20px;
+}
+
+.App {
+    text-align: center;
+    color: gray;
+}
+
+.App-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.Pokedex {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    justify-items: center;
+}
+
+.Pokecard {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    width: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.Pokecard-title {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+.Pokecard-image {
+    width: 100px;
+    height: 100px;
+}
+
+.Pokecard-type {
+    color: gray;
+    font-size: 1em;
+    margin-top: 5px;
+}
